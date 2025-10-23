@@ -1,10 +1,7 @@
 # requirements.txt
 
---find-links https://download.pytorch.org/whl/torch_stable.html
-faiss-cpu==1.7.2
-langchain-community==0.2.10
-langchain-core==0.2.20
-
+chromadb
+tiktoken
 
 # --- 핵심 의존성 ---
 streamlit>=1.38.0
