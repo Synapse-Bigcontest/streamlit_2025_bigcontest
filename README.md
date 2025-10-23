@@ -1,1 +1,0 @@
-# streamlit_2025_bigcontest
