@@ -1,3 +1,5 @@
+# requirements.txt (수정된 버전)
+
 # --- 핵심 의존성 ---
 streamlit>=1.38.0
 google-generativeai>=0.8.0
@@ -9,7 +11,7 @@ fastmcp>=2.11.0
 
 # --- LangChain 관련 ---
 langchain==0.2.15
-langchain-core==0.2.23
+langchain-core==0.2.35  # 👈 버전 충돌 해결을 위해 0.2.35로 수정
 langchain-community==0.2.15
 langchain-google-genai>=1.0.0
 langchain-mcp-adapters>=0.1.0
@@ -20,7 +22,7 @@ orjson==3.10.3
 pypdf>=4.2.0
 sentence-transformers>=2.7.0
 torch>=2.2.0
-faiss-cpu==1.8.0
+faiss-cpu==1.12.0  # 👈 설치 오류 해결을 위해 1.12.0으로 수정
 
 # --- 이미지 처리 ---
 Pillow>=10.0.0
