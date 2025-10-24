@@ -10,10 +10,10 @@ mcp>=1.13.1
 fastmcp>=2.11.0
 
 # --- LangChain 관련 ---
-langchain==0.2.15
-langchain-core==0.2.37  # 👈 버전 충돌 해결을 위해 0.2.35로 수정
-langchain-community==0.2.15
-langchain-google-genai>=1.0.0
+langchain==1.0.0                  # 👈 1.0.0 이상으로 올림
+langchain-core==1.0.0             # 👈 1.0.0 이상으로 올림
+langchain-community==1.0.0        # 👈 1.0.0 이상으로 올림
+langchain-google-genai==3.0.0     # 👈 3.0.0 이상으로 올림
 langchain-mcp-adapters>=0.1.0
 langgraph>=0.1.0
 orjson==3.10.3
