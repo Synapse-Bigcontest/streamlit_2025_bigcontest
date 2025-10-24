@@ -32,6 +32,9 @@ class FestivalRecommender:
         
         # VectorStore 로드
         self.vectorstore = load_festival_vectorstore()
+
+        if self.vectorstore is None:
+            raise RuntimeError("축제 벡터스토어 로딩 실패")
         
         # 가중치 (config에서 로드)
         self.embedding_weight = config.FESTIVAL_EMBEDDING_WEIGHT
