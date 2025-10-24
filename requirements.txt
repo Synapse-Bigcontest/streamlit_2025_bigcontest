@@ -1,36 +1,23 @@
-# --- 핵심 의존성 ---
 streamlit>=1.38.0
 pandas>=2.2.0
 
-# --- MCP 관련 ---
 mcp>=1.13.1
 fastmcp>=2.11.0
 
-# --- LangChain 관련 ---
-langchain==0.4.0.dev0
-langchain-core==0.4.0.dev0
-langchain-community==0.4.0.dev0
+langchain==0.4.0
+langchain-core==0.4.0
+langchain-community==0.3.31
 langchain-google-genai==2.1.10
-langchain-mcp-adapters>=0.1.0
-langgraph>=0.1.0
-orjson==3.10.3
-
-# --- Google AI Generative Language 호환 ---
 google-generativeai==0.8.3
 
-# --- RAG 및 벡터스토어 ---
 pypdf>=4.2.0
 sentence-transformers>=2.7.0
 torch>=2.2.0
 faiss-cpu==1.12.0
 
-# --- 이미지 처리 ---
 Pillow>=10.0.0
-
-# --- 백엔드 서버 및 유틸 ---
 fastapi>=0.111.0
 uvicorn>=0.26.0
 matplotlib>=3.7.2
-
-# --- 호환성 문제 방지 ---
 typing-extensions>=4.9.0
+orjson==3.10.3
