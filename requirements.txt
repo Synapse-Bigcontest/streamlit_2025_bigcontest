@@ -1,8 +1,3 @@
-# requirements.txt
-
-chromadb
-tiktoken
-
 # --- 핵심 의존성 ---
 streamlit>=1.38.0
 google-generativeai>=0.8.0
@@ -13,23 +8,27 @@ mcp>=1.13.1
 fastmcp>=2.11.0
 
 # --- LangChain 관련 ---
-langchain>=0.2.0
-langchain-core>=0.2.0
+langchain==0.2.15
+langchain-core==0.2.23
+langchain-community==0.2.15
 langchain-google-genai>=1.0.0
 langchain-mcp-adapters>=0.1.0
 langgraph>=0.1.0
 orjson==3.10.3
 
-
 # --- RAG 및 벡터스토어 ---
-pypdf>=4.2.0         # PDF 문서 로더
-sentence-transformers 
-torch
+pypdf>=4.2.0                # PDF 문서 로더
+sentence-transformers>=2.7.0
+torch>=2.2.0
+faiss-cpu==1.8.0
 
 # --- 이미지 처리 ---
 Pillow>=10.0.0
 
-# --- 기타 ---
+# --- 백엔드 서버 및 유틸 ---
 fastapi>=0.111.0
 uvicorn>=0.26.0
 matplotlib>=3.7.2
+
+# --- 호환성 문제 방지 ---
+typing-extensions>=4.9.0
