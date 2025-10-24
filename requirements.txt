@@ -11,7 +11,7 @@ fastmcp>=2.11.0
 
 # --- LangChain 관련 ---
 langchain==0.2.15
-langchain-core==0.2.35  # 👈 버전 충돌 해결을 위해 0.2.35로 수정
+langchain-core==0.2.37  # 👈 버전 충돌 해결을 위해 0.2.35로 수정
 langchain-community==0.2.15
 langchain-google-genai>=1.0.0
 langchain-mcp-adapters>=0.1.0
