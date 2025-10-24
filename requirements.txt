@@ -3,7 +3,7 @@ streamlit>=1.38.0
 google-generativeai>=0.8.0
 pandas>=2.2.0
 
-# --- MCP (Model Context Protocol) 관련 ---
+# --- MCP 관련 ---
 mcp>=1.13.1
 fastmcp>=2.11.0
 
@@ -17,7 +17,7 @@ langgraph>=0.1.0
 orjson==3.10.3
 
 # --- RAG 및 벡터스토어 ---
-pypdf>=4.2.0                # PDF 문서 로더
+pypdf>=4.2.0
 sentence-transformers>=2.7.0
 torch>=2.2.0
 faiss-cpu==1.8.0
