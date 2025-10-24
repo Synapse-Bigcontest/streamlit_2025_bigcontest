@@ -87,6 +87,7 @@ def load_festival_vectorstore():
         if not vector_db_path.exists():
             logger.critical(f"--- [CRITICAL ERROR] '축제' Vector DB 경로를 찾을 수 없습니다: {vector_db_path}")
             st.error(f"'축제' Vector DB 파일을 찾을 수 없습니다. (경로: {vector_db_path})")
+            st.stop()
             return None
 
         db = FAISS.load_local(
